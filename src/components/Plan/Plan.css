@@ -1,0 +1,83 @@
+#Plan {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+.plan-header {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.plan-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  position: relative;
+}
+.plan-box > :nth-child(1) {
+  width: 32rem;
+  height: 23rem;
+  top: -1rem;
+  left: 10rem;
+  filter: blur(150px);
+  background: rgba(253, 120, 43, 0.69);
+}
+.plan-box > :nth-child(2) {
+  width: 32rem;
+  height: 23rem;
+  top: -1rem;
+  right: 10rem;
+  filter: blur(150px);
+  background: rgba(253, 120, 43, 0.69);
+}
+.plan-card {
+  background-color: var(--caloryCard);
+  padding: 1rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.plan-card > :first-child {
+  fill: var(--orange);
+  height: 2rem;
+  width: 2rem;
+}
+.plan-card > :nth-child(3) {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.plan-card > ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  gap: 1rem;
+}
+ul > li {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+ul > li > img {
+  width: 1rem;
+}
+.plan-card > :nth-child(5) {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.plan-card > :nth-child(5) > img {
+  width: 1rem;
+}
+.plan-box > :nth-child(4) {
+  background: var(--planCard);
+  transform: scale(1.1);
+}

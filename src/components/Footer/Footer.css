@@ -1,0 +1,31 @@
+#Footer {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+}
+#Footer > hr {
+  width: 100vw;
+}
+.social-link {
+  display: flex;
+  margin-top: 3rem;
+  gap: 3rem;
+  justify-content: center;
+}
+.social-link > img {
+  width: 2rem;
+}
+#Footer > :nth-child(3) {
+  width: 10rem;
+  margin-bottom: 4rem;
+}
+#Footer > :nth-child(4) {
+  background-color: red;
+}
+#Footer > :nth-child(5) {
+  left: 20rem;
+  background-color: #ff7300;
+}
