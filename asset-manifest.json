@@ -10,10 +10,10 @@
     "static/media/image3.png": "/static/media/image3.69484cb0ee7687a8c28b.png",
     "static/media/image4.png": "/static/media/image4.2c0d30b9ce1579eb1109.png",
     "static/media/t-image2.jpg": "/static/media/t-image2.f5d2e52e514c544dfffb.jpg",
-    "static/media/hero_image_back.png": "/github.io/fitbody/static/media/hero_image_back.9f54bfba33048f4ca688.png",
-    "index.html": "/github.io/fitbody/index.html",
-    "main.d35b0156.css.map": "/github.io/fitbody/static/css/main.d35b0156.css.map",
-    "main.2514e84c.js.map": "/github.io/fitbody/static/js/main.2514e84c.js.map"
+    "static/media/hero_image_back.png": "tatic/media/hero_image_back.9f54bfba33048f4ca688.png",
+    "index.html": "index.html",
+    "main.d35b0156.css.map": "/static/css/main.d35b0156.css.map",
+    "main.2514e84c.js.map": "static/js/main.2514e84c.js.map"
   },
   "entrypoints": [
     "static/css/main.d35b0156.css",
